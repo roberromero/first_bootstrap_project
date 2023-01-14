@@ -1,3 +1,15 @@
-h2{
-    color: aqua;
+
+.navbar-nav{
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 2.5rem;
 }
+.bi-rocket{
+    font-size: 50px;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    #rocket-icon{
+        display: none;
+    }
+  }
