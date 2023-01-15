@@ -16,7 +16,7 @@ font-family: 'Share Tech Mono', monospace;
 }
 
 /*FIRST SECTION*/
-.title{
+.title-section{
     text-align: center;
 }
 h1{
@@ -28,6 +28,7 @@ h2, h3{
 }
 h3{
     font-size: 1.3rem;
+    padding: 0 4rem;
 }
 .bi-person-circle{
     font-size: 13rem;
@@ -36,6 +37,22 @@ h3{
 /*SECOND SECTION*/
 .laptop-tech{
     width: 45rem;
+}
+/*THIRD SECTION*/
+.about-section{
+    background-color: #15151e;
+    color: rgb(255, 255, 255);
+    height: 500px;
+}
+.about-section div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-section div h1{
+    font-size: 2.5rem;
+    padding-bottom: 8px;
 }
 @media only screen and (max-width: 768px) {
     #rocket-icon{
