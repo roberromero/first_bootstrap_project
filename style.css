@@ -161,7 +161,9 @@ h3{
 .card:hover{
     border: 1px solid #2F2D3B;
 }
-
+.testimonials{
+    padding-top: 90px
+}
 @media only screen and (max-width: 768px) {
     #rocket-icon{
         display: none;
