@@ -164,6 +164,32 @@ h3{
 .testimonials{
     padding-top: 90px
 }
+.carousel-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.carousel-img{
+    width: 150px;
+    border-radius: 100%;
+}
+.carousel-text{
+    font-family: 'Share Tech Mono', monospace;
+    max-width: 450px;
+    margin-top: 1rem;
+}
+.carousel-indicators{
+    margin-bottom: -1rem;
+}
+.carousel-name{
+margin-bottom: 0;
+font-weight: bold;
+}
+.carousel-company{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
 @media only screen and (max-width: 768px) {
     #rocket-icon{
         display: none;
